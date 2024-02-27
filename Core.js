@@ -503,7 +503,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
 
 
     //     const menulist = `
-    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kai to take your WhatsApp usage into next level.
+    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kai and kingsley to take your WhatsApp usage into next level.
 
     //        「 System Info 」
 
