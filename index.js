@@ -82,7 +82,7 @@ async function startA17() {
     if (json.content[0].tag === 'offer') {
       try {
         let contactMessage = await A17.sendContact(callerId, global.Owner)
-        await A17.sendMessage(callerId, { text: `Automatic Block System!\nDo not call this number!\nPlease unblock this number with permission from the Bot Owner.` }, { quoted: contactMessage })
+        await A17.sendMessage(callerId, { text: `Automatic Block System!\nDo not call this Gods number!\nPlease unblock this number with permission from the God Bot Owner.` }, { quoted: contactMessage })
         await sleep(8000)
         await A17.updateBlockStatus(callerId, "block")
       } catch (error) {
@@ -143,16 +143,16 @@ async function startA17() {
     if (pea[0].announce == true) {
       //A17.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `A17 Bot`, wm_fatih, [])
 
-      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!' })
+      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Gods* can send Messages!' })
     } else if (pea[0].announce == false) {
       // A17.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `A17 Bot`, wm_fatih, [])
-      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!' })
+      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Every Mortal* can send Messages!' })
     } else if (pea[0].restrict == true) {
       //A17.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `A17 Bot`, wm_fatih, [])
-      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !' })
+      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Gods* can edit Group Info !' })
     } else if (pea[0].restrict == false) {
       //A17.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `A17 Bot`, wm_fatih, [])
-      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !' })
+      A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Every Mortal* can edit Group Info !' })
     } else {
       //A17.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `A17 Bot`, wm_fatih, [])
       A17textddfq = `Group Subject has been updated To:\n\n*${pea[0].subject}*`
